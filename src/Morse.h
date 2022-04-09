@@ -18,8 +18,8 @@
 class Morse {
    public:
     Morse(int pin, bool inverted = false, unsigned int dotDelay = 250,
-          unsigned int dashDelay = 1000, unsigned int spaceDelay = 2000,
-          unsigned int morseDelay = 250, unsigned int letterDelay = 1000);
+          unsigned int dashDelay = 1000, unsigned int spaceDelay = 6000,
+          unsigned int morseDelay = 1000, unsigned int letterDelay = 4000);
     void dot();
     void dash();
     void space();
