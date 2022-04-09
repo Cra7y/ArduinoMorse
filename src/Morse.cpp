@@ -83,8 +83,8 @@ void Morse::morseArray(const int (&letter)[5]) {
         } else if (letter[i] == DASH) {
             dash();
         } else {
-            newLetter();
             break;
         }
     }
+    newLetter();
 }
